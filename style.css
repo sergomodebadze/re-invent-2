@@ -1,0 +1,214 @@
+.container {
+    box-sizing: border-box;
+    position: absolute;
+    Width:505px;
+    Height: 701px;
+    left: 107px;
+    top: 89px;
+    background: #FFFFFF;
+    border: 0.5px solid #878787;
+    box-shadow: 0px 4px 64px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 36px 42px 40px 40px;
+}
+/* start-wecome */
+.Welcome-div {
+    width: 100%;
+}
+.Welcome {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 38px;
+    color: #000000;
+}
+/* end-welcome */
+
+/* start-Sign-in-to-lorem-div*/
+.Sign-in-to-lorem-div {
+    width: 100%;
+    margin-top: 10px;
+}
+.Sign-in-to {
+    font-weight: 500;
+    font-size: 31px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+.Lorem {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+    font-style: normal;
+}
+/* end-Sign-in-to-lorem-div */
+
+/* start-username-input-div and password-input */
+.username-input-div {
+    width: 100%;
+    margin-top: 48px;
+}
+.username {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+.input {
+    width: 100%;
+    background: #FFFFFF;
+    border: 0.6px solid #282828;
+    border-radius: 6px;
+    height: 59px;
+    padding: 19px 0 19px 27px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #ABABAB;
+}
+.password {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+/* end-username-input-div */
+
+/* start-pasword-input-div */
+.pasword-input-div {
+    margin-top: 39px;
+    width: 100%;
+}
+.eye-span {
+    position: absolute;
+    right: 60px;
+    transform: translate(0, -50%);
+    top: 52.5%;
+    cursor: pointer;
+}
+/* end-pasword-input-div */
+
+/* start-checkbox-remember-me-forgot-password-div */
+.checkbox-remember-me-forgot-password-div {
+    display: flex;
+    width: 100%;
+    margin-top: 22px;
+}
+.checkbox-remember-me-div {
+    display: flex;
+    width: 50%;
+}
+.remember-me {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+.Forgot-password-div {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+.Forgot-Password {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #4D4D4D;
+}
+/* end-checkbox-remember-me-forgot-password-div */
+
+/* start-button-div */
+.button-div {
+    width: 100%;
+    margin-top: 38px;
+}
+.button {
+    background: #000000;
+    border-radius: 6px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    height: 57px;
+}
+/* end-button-div */
+
+/* start-Dont-have-an-Account-Register-div */
+.Dont-have-an-Account-Register-div {
+    width: 100%;
+    margin-top: 56px;
+    display: flex;
+    justify-content: center;
+}
+.Dont-have-an-Account-Register {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7D7D7D;
+}
+.Register a {
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+/* end-Dont-have-an-Account-Register-div */
+
+/* start img-div */
+.img-div {
+    margin: 125px 15px 125px 598px;
+}
+/* end img-div */
+
+/* start responsive */
+@media (max-width: 375px) {
+    .container {
+        width: 324px;
+        height: 641px;
+        padding: 36px 14px;
+    }
+    .Welcome {
+        font-size: 19px;
+    }
+    .Sign-in-to-lorem-div {
+        margin-top: 26px;
+    }
+    .Sign-in-to {
+        font-size: 25px;
+    }
+    .username-input-div {
+        margin-top: 42px;
+    }
+    .pasword-input-div {
+        margin-top: 38px;
+    }
+    .eye-span {
+        top: 58.7%;
+        right: 43.46px;
+    }
+    .Dont-have-an-Account-Register-div {
+        margin-top: 31px;
+    }
+    .img {
+        width: 1px;
+        height: 1px;
+    }
+}
+/* end responsive */
